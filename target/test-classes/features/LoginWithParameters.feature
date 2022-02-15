@@ -8,7 +8,7 @@ Feature:  login as different users
 
    @hw #homework
   Scenario: login as a driver
-    Given the user logged in as "xSALC_"
+    Given the user logged in as "SALC_"
     Then the user should be able to login
     Then the title contains "Dashboard"
 
